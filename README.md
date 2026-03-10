@@ -3,7 +3,7 @@
 ## Go from zero to a fully configured vCluster environment in a single command
 
 <p align="center">
-  <img src="/assets/certified_stacks.png" alt="Certified Stacks" />
+  <img src="assets/certified_stacks.png" alt="Certified Stacks" />
 </p>
 
 Deploying applications on top of Kubernetes clusters involves stitching together multiple components — operators, controllers, CRDs, Helm charts — and getting the sequencing and configuration right across all of them. Teams spend days or weeks on integration work before anything is production-ready. Certified Stacks eliminate that gap.
