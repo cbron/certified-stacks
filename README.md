@@ -2,7 +2,9 @@
 
 ## Go from zero to a fully configured vCluster environment in a single command
 
-<!-- TODO: Add architecture diagram or hero graphic showing stack deployment flow -->
+<p align="center">
+  <img src="/assets/certified_stacks.png" alt="Certified Stacks" />
+</p>
 
 Deploying applications on top of Kubernetes clusters involves stitching together multiple components — operators, controllers, CRDs, Helm charts — and getting the sequencing and configuration right across all of them. Teams spend days or weeks on integration work before anything is production-ready. Certified Stacks eliminate that gap.
 
@@ -20,10 +22,13 @@ A Certified Stack is a tested, versioned, one-command deployment of a vCluster p
 
 **Forkable and extensible.** Every stack is a starting point, not a black box. Fork the repo, modify Helm values, swap components, or adapt the orchestration to your environment. Certified Stacks are designed to be customized — build your own stack for any workload or application.
 
-### Current Stacks
+### Current Certified Stacks
 
 | Stack | Components | Tenancy Models |
 |-------|-----------|----------------|
 | **Run:ai on vCluster** | vCluster, GPU Operator, Run:ai | Hard isolation, Soft isolation |
+| **Slinky on vCluster** | vCluster, GPU Operator, Slinky | Hard isolation, Soft isolation |
+| **Ray on vCluster** | vCluster, GPU Operator, Ray | Hard isolation |
+| **SkyPilot on vCluster** | vCluster, GPU Operator, SkyPilot | Hard isolation |
 
 More stacks and partner integrations coming soon. Interested in building a Certified Stack for your project or product? [Get in touch →](TODO)
