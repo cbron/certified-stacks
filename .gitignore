@@ -3,7 +3,6 @@
 *.tfstate
 *.tfstate.*
 *.tfstate.backup
-.terraform.lock.hcl
 crash.log
 crash.*.log
 override.tf
@@ -14,6 +13,7 @@ override.tf.json
 # Secrets - never commit
 terraform.tfvars
 *.auto.tfvars
+.env*
 
 # Generated credentials
 *-kubeconfig.yaml
